@@ -21,7 +21,7 @@ function Home() {
         )
         }
     )}
-        <Link to="/store" className="btn align-self-center">TO STORE --&gt;</Link>
+        <Link to="/store" className="btn align-self-center mt-5 mb-3">TO STORE --&gt;</Link>
 
     </div>
       </>

@@ -13,7 +13,7 @@ function StoreByParams() {
   return(
       <div className="container">
         <div className="row">
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-sm-12 col-md-6">
             <Card className="container__card">
                 <CardImg className="container__img" src={shoe.img} alt={shoe.name}/>
                 <CardBody className="container__body">
@@ -21,7 +21,7 @@ function StoreByParams() {
                 </CardBody>
             </Card>
        `    </div>
-            <div className=" col-12 col-md-6 container__body">
+            <div className=" col-12 col-sm-12 col-md-6 container__body">
             <hr />
                 <h2>Details</h2>
             </div>

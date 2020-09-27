@@ -27,7 +27,6 @@
     font-weight: bolder;
     text-align: center;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 10cm;
 }
 .card__text:hover{
@@ -37,7 +36,6 @@
     text-align: center;
     margin-top: 5px;
     color: blue;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-shadow: 2px 2px #FF0000;
 }
@@ -53,3 +51,15 @@
     border-radius: 1px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+@media only screen and (max-width: 600px) {
+   .card{
+       height: 500;
+       width: 500px;
+   }
+  }
+  @media only screen and (max-width: 400px) {
+     .card{
+         height: 200;
+         width: 300px;
+     }
+    }
