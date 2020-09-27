@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./ malik-shoeStore.surge.sh --token ${{ secrets.surgeToken }}
+      run: surge ./build malik-shoeStore.surge.sh --token ${{ secrets.SURGETOKEN }}
