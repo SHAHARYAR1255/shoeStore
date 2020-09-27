@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App1 from './App1';
-import { Provider } from 'react-redux';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import allReducers from './reducers'
-
-import {createStore} from "redux";
-
-const store = createStore(allReducers
-  , window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-
 
 ReactDOM.render(
-<Provider store={store}>
-<App1 /> 
-</Provider>
+  <App />
 , document.getElementById('root'));
 
 /*

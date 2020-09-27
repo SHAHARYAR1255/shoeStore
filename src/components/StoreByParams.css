@@ -1,0 +1,25 @@
+.container__card{
+    text-align: center;
+    border: 1px solid blue;
+    margin: 20px;
+}
+.container__img{
+    height: 100%;
+    width: 100%;
+}
+.container__body{
+    font-size: 24px;
+    font-weight: bolder;
+    flex: 0.5;
+}
+.container__body > h2{
+    text-decoration: underline;
+    margin: 20px;
+    text-align: center;
+}
+.container{
+    color: blue;
+}
+.row{
+    display: flex;
+}

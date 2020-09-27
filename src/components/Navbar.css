@@ -1,0 +1,18 @@
+*{
+    color: blue;
+}
+.carousel-indicators{
+    color: blue !important;
+}
+/* make it fully responsive */
+
+.carousel-caption {
+    color: blue !important;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar__carousel{
+    flex: 1;
+}

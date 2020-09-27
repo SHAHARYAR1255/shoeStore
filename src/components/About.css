@@ -1,0 +1,9 @@
+.about__row , .team__row { 
+    text-align: center;
+    height: 300px;
+    margin-top: 5px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
+}
