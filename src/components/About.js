@@ -8,8 +8,13 @@ const About = () =>{
               <h1>ABout Us</h1>
           </div>
           <div className="row team__row">
-              <h1>Our Team</h1>
-          </div>
+              <h1>Team Lead</h1>
+              <div>
+                  <ul>
+                      <li><h2>SHAHARYAR MALIK</h2></li>
+                  </ul>
+              </div>
+           </div>
       </div>
     );
   };
